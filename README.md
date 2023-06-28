@@ -1,4 +1,4 @@
-Crypto Screener App
+# Crypto Screener App
 
 ### Images of The Crypto Screener Website:
 
