@@ -1,10 +1,5 @@
 Crypto Screener App
 
-![GitHub stars](https://img.shields.io/github/stars/codebucks27/CryptoBucks-A-crypto-screener-application?style=social&logo=ApacheSpark&label=Stars)&nbsp;&nbsp;
-![GitHub forks](https://img.shields.io/github/forks/codebucks27/CryptoBucks-A-crypto-screener-application?style=social&logo=KashFlow&maxAge=3600)&nbsp;&nbsp;
-![Github Followers](https://img.shields.io/github/followers/codebucks27.svg?style=social&label=Follow)&nbsp;&nbsp;<br />
-
-
 ### Images of The Crypto Screener Website:
 
 ![Crypto](https://github.com/codebucks27/CryptoBucks-A-crypto-screener-application/blob/main/Website-Images/Crypto.png)
