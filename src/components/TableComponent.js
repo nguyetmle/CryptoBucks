@@ -24,7 +24,7 @@ const TableComponent = () => {
 
                         <tbody>
                             {
-                                cryptoData.map(data => { //map the crypto data to table row
+                                cryptoData.map( (data) => { //map the crypto data to table row
                                     return(
                                         <tr key={data.id} className='text-center text-base border-b border-gray-100 hover:bg-gray-200 last:border-b-0'>
                                             <td className='px-2 py-4 flex items-center uppercase'>
