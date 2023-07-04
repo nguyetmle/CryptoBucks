@@ -1,8 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -11,6 +9,7 @@ import Home from './pages/Home';
 import Trending from './pages/Trending';
 import Saved from './pages/Saved';
 import Crypto from './pages/Crypto';
+import CryptoDetail from './components/CryptoDetail';
 
 const router = createBrowserRouter([ //create routes for components
   {
@@ -20,6 +19,12 @@ const router = createBrowserRouter([ //create routes for components
       {
         path: "/",
         element: <Crypto />,
+        children: [
+          {
+            path: ":coinId",
+            element: <CryptoDetail />
+          }
+        ]
       },
       {
         path: "/trending",
@@ -40,7 +45,4 @@ root.render(
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
