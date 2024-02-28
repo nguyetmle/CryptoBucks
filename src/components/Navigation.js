@@ -54,7 +54,7 @@ ${
     border-0 cursor-pointer rounded capitalize font-semibold`;
         }}
       >
-        saved
+        watchlist
       </NavLink>
     </nav>
   );
